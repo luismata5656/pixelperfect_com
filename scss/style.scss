@@ -1,6 +1,8 @@
 $primary: #180F3E;
 $secondary: #DF5D2E;
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 *,
 body {
     margin: 0;
@@ -32,6 +34,10 @@ body {
 #main {
     height: 100vh;
     width: 100vw;
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+    }
 
 
 
