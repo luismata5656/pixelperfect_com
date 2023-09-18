@@ -1,0 +1,159 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: "Pixel Perfect Designs: Web Design and Development for Wyoming Businesses"
+logo: assets/images/logo.png
+description: ""
+copyright: Copyright &copy; 2023 Pixel Perfect Designs
+
+menu:
+  - { name: Contact, link: "#contact" }
+  - { name: About, link: "#about" }
+  - { name: Services, link: "#services" }
+  # - { name: Works, link: "/contact" }
+
+#-------------------------------
+# Google Analytics Section
+
+google-analytics: G-4ZX1G2WLB2
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: "Your Creative Partner For Success"
+  sub-text: "Experience the future of design with Pixel Perfect Designs. Leveraging cutting-edge  Artificial Intelligence Tech, we deliver solutions at unmatched speeds, Allowing you to scale your business quickly and easily"
+
+xl:
+  left: 'Marketing'
+  right: 'Design'
+
+social:
+# TODO: Add social media links
+  - { icon: "ti-facebook", link: "https://www.facebook.com/profile.php?id=100092403941198" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/luismata8603" }
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: Website design is crucial as it serves as a virtual storefront for businesses. A well-designed and user-friendly website can attract and retain customers, effectively communicate the brand’s message, and drive conversions. \nSocial media management plays a vital role in engaging with the audience, building a community around the brand, and increasing visibility. A consistent and strategic social media presence can foster meaningful relationships with customers.
+year_est: 2022
+image: "assets/images/about/about.png"
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services-desc: At Pixel Perfect Designs, we offer a comprehensive range of digital design services. We are dedicated to building a strong online identity for businesses and helping them achieve remarkable success in the digital landscape. Contact us today to elevate your brand and business!
+services:
+  - {
+      name: Website Design,
+      description: "Tailor-made website design services, creating unique and visually appealing websites that reflect the brand’s identity and resonate with the target audience.",
+    }
+  - {
+      name: Content Creation,
+      description: "High-quality and relevant content for websites, social media, blogs, and other marketing channels to attract and engage the target audience.",
+    }
+  - {
+      name: Brand Identity Design,
+      description: "Craft a captivating brand identity that reflects your values and connects with your audience",
+    }
+  - {
+      name: Search Engine Optimization,
+      description: "Create and execute a social media strategy to increase brand awareness, build a community, and drive conversions.",
+    }
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# # Portfolio Home Section
+# portfolio-home-items:
+#   - image: "assets/images/portfolio/cateringrosieroberson.png"
+#     url: "https://cateringrosieroberson.com"
+
+#   - image: "assets/images/portfolio/pixelperfect.png"
+#     url: "https://pixelperfect.luishmata.com"
+
+#   - image: "assets/images/portfolio/twincreek.png"
+#     url: "https://twincreek-fencing.com"
+
+# Portfolio Page
+# portfolio-label:
+#   - { title: "UI/UX Design", type: "design" }
+#   - { title: "BRANDING", type: "branding" }
+#   - { title: "ILLUSTRATION", type: "illustration" }
+
+# portfolio-items:
+#   - image: "assets/images/portfolio/cateringrosieroberson.png"
+#     url: "https://cateringrosieroberson.com"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "website"
+
+#   - image: "assets/images/portfolio/pixelperfect.png"
+#     url: "https://pixelperfect.luishmata.com"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "website"
+
+#   - image: "assets/images/portfolio/twincreek.png"
+#     url: "https://twincreek-fencing.com"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "website"
+
+
+#-------------------------------
+# Testimonials Section
+
+# testimonial-items:
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+#-------------------------------
+# Client Slider Section
+
+# client-slider-items:
+#   - logo: "assets/images/clients-logo/client-logo-1.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-2.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-3.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-4.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-5.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-1.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-2.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-3.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-4.png"
+#     url: "#"
+
+#   - logo: "assets/images/clients-logo/client-logo-5.png"
+#     url: "#"
