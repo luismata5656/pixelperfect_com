@@ -1,0 +1,89 @@
+#hero-section {
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include media-breakpoint-down(md) {
+    height: 100vh;
+  }
+
+  #hero-content {
+    width: 80%;
+    @include media-breakpoint-up(lg) {
+      width: 75%;
+    }
+
+    #scroll-icon {
+      animation: oscillate 1s infinite;
+    }
+
+    #hero-text {
+      font-size: 6rem;
+      font-weight: 100;
+      line-height: 6.25rem;
+      letter-spacing: -0.24rem;
+      @include media-breakpoint-down(md) {
+        font-size: 3rem;
+        letter-spacing: 0rem;
+        line-height: 3.75rem;
+      }
+    }
+
+    #hero-text-strong {
+      font-size: 6rem;
+      font-weight: 900;
+      line-height: 6.25rem;
+      letter-spacing: -0.24rem;
+      @include media-breakpoint-down(md) {
+        font-size: 3rem;
+        letter-spacing: 0rem;
+        line-height: 3.75rem;
+      }
+    }
+  }
+}
+
+#floating-text-right {
+  position: absolute;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transform: rotate(180deg);
+  color: $white;
+  font-size: 12.5rem;
+  font-weight: 900;
+  line-height: 7rem;
+  letter-spacing: -0.12rem;
+  white-space: nowrap;
+  opacity: 25%;
+  @include media-breakpoint-down(md) {
+    font-size: 5rem;
+    line-height: 1.875rem;
+  }
+}
+
+#floating-text-left {
+  position: absolute;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  top: 75%;
+  left: 0;
+  z-index: 1;
+  color: $white;
+  font-size: 12.5rem;
+  font-weight: 900;
+  line-height: 7rem;
+  letter-spacing: -0.12rem;
+  white-space: nowrap;
+  opacity: 50%;
+  @include media-breakpoint-down(md) {
+    font-size: 5rem;
+    line-height: 1.875rem;
+  }
+}
+
+#about-section {
+  height: 75rem;
+}

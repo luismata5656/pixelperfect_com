@@ -10,7 +10,14 @@
     }
 }
 
-
-.animate {
-    animation: 1s ease-out 0s 1 slideUp;
+@keyframes oscillate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

@@ -1,9 +1,34 @@
+---
+---
+
+@charset "utf-8";
+
 @import "util/brand";
 @import "util/buttons";
 @import "util/mixins";
-@import "util/reset";
 @import "util/animations";
 
 :root {
-    background-color: $primary;
+    background-color: $info;
 }
+
+$spacer: 0.5rem; // Set the base spacing unit to 8px
+$spacers: (
+  0: 0,
+  1: ($spacer * 0.25), // 2px
+  2: ($spacer * 0.5), // 4px
+  3: ($spacer * 1), // 8px
+  4: ($spacer * 1.5), // 12px
+  5: ($spacer * 2), // 16px
+  6: ($spacer * 2.5), // 20px
+  7: ($spacer * 3), // 24px
+  8: ($spacer * 4), // 32px
+  9: ($spacer * 5), // 40px
+  10: ($spacer * 6), // 48px
+  11: ($spacer * 7), // 56px
+  12: ($spacer * 8), // 64px
+);
+
+@import 'bootstrap';
+@import "pages/homepage";
+@import "util/common";

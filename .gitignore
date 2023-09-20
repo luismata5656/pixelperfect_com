@@ -4,3 +4,10 @@ _site
 *.DS_Store
 Gemfile.lock
 .jekyll-cache
+.bundle
+node_modules
+vendor
+package-lock.json
+package.json
+.DS_Store
+```

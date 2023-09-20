@@ -22,7 +22,9 @@ include:
   - _pages
 
 sass:
-  sass_dir: assets/scss
+  load_paths:
+    - "vendor/bundle/ruby/3.2.0/gems/bootstrap-5.3.1/assets/stylesheets"
+    - "assets/scss"
   style: compressed
 
 # Exclude from processing.

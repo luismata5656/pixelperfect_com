@@ -3,7 +3,7 @@
 # General Site Settings
 
 title: "Pixel Perfect Designs: Web Design and Development for Wyoming Businesses"
-logo: assets/images/logo.png
+logo: assets/img/logo.png
 description: ""
 copyright: Copyright &copy; 2023 Pixel Perfect Designs
 
@@ -22,17 +22,15 @@ google-analytics: G-4ZX1G2WLB2
 # Hero Section
 
 hero:
-  hero-title: "Your Creative Partner For Success"
   sub-text: "Experience the future of design with Pixel Perfect Designs. Leveraging cutting-edge  Artificial Intelligence Tech, we deliver solutions at unmatched speeds, Allowing you to scale your business quickly and easily"
 
 xl:
   left: 'Marketing'
-  right: 'Design'
+  right: 'Digital Design'
 
 social:
-# TODO: Add social media links
-  - { icon: "ti-facebook", link: "https://www.facebook.com/profile.php?id=100092403941198" }
-  - { icon: "ti-instagram", link: "https://www.instagram.com/luismata8603" }
+  - { icon: "ti-facebook", link: "https://www.facebook.com/profile.php?id=100092254280099" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/pixel_perfect_designs_2023/" }
 
 #-------------------------------
 # About (Section and Page)
@@ -40,7 +38,7 @@ social:
 # About Section
 blurb: Website design is crucial as it serves as a virtual storefront for businesses. A well-designed and user-friendly website can attract and retain customers, effectively communicate the brand’s message, and drive conversions. \nSocial media management plays a vital role in engaging with the audience, building a community around the brand, and increasing visibility. A consistent and strategic social media presence can foster meaningful relationships with customers.
 year_est: 2022
-image: "assets/images/about/about.png"
+image: "assets/img/about.png"
 
 #-------------------------------
 # Services Section
